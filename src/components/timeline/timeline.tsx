@@ -2,7 +2,7 @@ import React from 'react';
 
 type Props = {};
 
-export default function Timeline({}: Props) {
+export default function Timeline(props: Props) {
     return (
         <div className="w-full rounded-3xl flex flex-col items-center justify-center bg-fuchsia-400 border-white border-2">
             timeline : AKSHAY

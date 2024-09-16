@@ -2,7 +2,7 @@ import React from 'react';
 
 type Props = {};
 
-export default function Navbar({}: Props) {
+export default function Navbar(props: Props) {
     return (
         <div className="w-full rounded-3xl flex flex-col items-center justify-center bg-teal-400 border-white border-2">
             navbar : PARTH GOYAL
