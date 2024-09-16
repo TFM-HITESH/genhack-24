@@ -1,8 +1,6 @@
 import React from 'react';
 
-type Props = {};
-
-export default function Faqs(props: Props) {
+export default function Faqs() {
     return (
         <div className="w-full rounded-3xl flex flex-col items-center justify-center bg-blue-400 border-white border-2">
             faqs : YASH HIRANI

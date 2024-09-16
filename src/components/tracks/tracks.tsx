@@ -1,8 +1,6 @@
 import React from 'react';
 
-type Props = {};
-
-export default function Tracks(props: Props) {
+export default function Tracks() {
     return (
         <div className="w-full rounded-3xl flex flex-col items-center justify-center bg-rose-400 border-white border-2">
             tracks : KAVIKANNAN
