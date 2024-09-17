@@ -1,10 +1,5 @@
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
-import gravitasLogo from '@/Assets/gravitasLogo.svg';
-import isaLogo from '@/Assets/ISALogo.png';
-import genhackLogo from '@/Assets/genhack.webp';
-import { CardSpotlight } from '../ui/card-spotlight';
 import { BackgroundBeamsWithCollision } from '../ui/background-beams-with-collision';
 
 export default function Footer() {
