@@ -6,7 +6,6 @@ interface ResourceCardProps {
     title: string;
     content: string;
     rotateamt: string;
-    translateamt?: string;
 }
 
 const ResourceCard: React.FC<ResourceCardProps> = ({
@@ -14,7 +13,6 @@ const ResourceCard: React.FC<ResourceCardProps> = ({
     title,
     content,
     rotateamt,
-    translateamt,
 }) => {
     return (
         <div

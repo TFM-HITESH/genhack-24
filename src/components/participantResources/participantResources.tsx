@@ -45,7 +45,6 @@ export default function ParticipantResources() {
                             title="Template"
                             content="Use our streaming Gemini API chat template to quickly get started experimenting with AI"
                             rotateamt="-4"
-                            translateamt="1"
                         />
                         <ResourceCard
                             svg={cardComp2}
