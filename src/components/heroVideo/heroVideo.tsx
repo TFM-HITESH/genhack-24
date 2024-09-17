@@ -1,7 +1,7 @@
 'use client';
-import Link from 'next/link';
+// import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
-import RotateText from './components/rotateText';
+// import RotateText from './components/rotateText';
 
 export default function HeroVideo() {
     const [isClient, setIsClient] = useState(false);
