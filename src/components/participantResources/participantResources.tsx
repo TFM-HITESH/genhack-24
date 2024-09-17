@@ -1,6 +1,6 @@
 "use client";
 import React from 'react';
-import Link from 'next/link';
+// import Link from 'next/link';
 import resource from './assets/resource.jpg'
 import ResourceCard from './ResourceCard';
 import cardComp1 from "./assets/cardComp1.svg";
