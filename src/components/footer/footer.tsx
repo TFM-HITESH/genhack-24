@@ -66,7 +66,7 @@ export default function Footer() {
                                 className="tracking-[1.0em] z-10 relative "
                                 target="_blank"
                             >
-                                GENHACK&apos24
+                                GENHACK'24
                             </Link>
 
                             {/* Background Slide Effect */}
