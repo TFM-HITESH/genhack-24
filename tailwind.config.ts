@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-const plugin = require('tailwindcss/plugin');
+import plugin from 'tailwindcss/plugin';
 
 const config: Config = {
   darkMode: ["class"],
@@ -61,20 +61,8 @@ const config: Config = {
   },
   plugins: [
     require("tailwindcss-animate"),
-    plugin(function ({ addVariant, e, postcss }) {
-      addVariant('firefox', ({ container, separator }) => {
-        const isFirefoxRule = postcss.atRule({
-          name: '-moz-document',
-          params: 'url-prefix()',
-        });
-        isFirefoxRule.append(container.nodes);
-        container.append(isFirefoxRule);
-        isFirefoxRule.walkRules((rule) => {
-          rule.selector = `.${e(
-            `firefox${separator}${rule.selector.slice(1)}`
-          )}`;
-        });
-      });
+    plugin(function({ addVariant }) {
+      addVariant('firefox', '@-moz-document url-prefix()');
     }),
   ],
 };

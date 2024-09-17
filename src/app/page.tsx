@@ -24,7 +24,9 @@ export default function Home() {
         <Timeline />
         <TeamNRules />
         <JudgingCriteria />
+        <div id="resources">
         <ParticipantResources />
+        </div>
         <Faqs />
         <StayTuned />
         <Footer />
