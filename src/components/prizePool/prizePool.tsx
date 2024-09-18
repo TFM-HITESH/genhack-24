@@ -22,8 +22,7 @@ export default function Prizes() {
             </h2>
           </div>
           <p className="text-5xl text-fuchsia-600">PRIZES</p>
-        </div>
-        
+        </div> 
         <br />
         <br/>
         {/* Prizes Component */}

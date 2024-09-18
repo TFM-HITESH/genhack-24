@@ -81,12 +81,12 @@ body {
         --chart-5: 340 75% 55%;
     }
 }
+
 .px-22 {
-    padding-left: 6.5rem;
+    padding-left: 6.5rem; /* Adjust this value as needed */
     padding-right: 6.5rem;
   }
-  
-  
+
 @layer base {
   * {
     @apply border-border;
