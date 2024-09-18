@@ -4,7 +4,7 @@ import { BackgroundBeamsWithCollision } from '../ui/background-beams-with-collis
 
 export default function Footer() {
     return (
-        <div className="w-full rounded-3xl flex flex-col items-center justify-center h-full bg-black border-white border-2">
+        <div className="w-full rounded-xl md:rounded-3xl flex flex-col items-center justify-center h-full bg-black border-white border-2">
             {/* <br></br>
             <br></br> */}
             <BackgroundBeamsWithCollision className="w-full h-full p-4 md:p-16 rounded-3xl flex z-10 hover:rounded-3xl items-center">
