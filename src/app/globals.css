@@ -3,9 +3,22 @@
 @tailwind utilities;
 
 :root {
-    --background: #ffffff;
-    --foreground: #121212;
-}
+    --font-geist-sans: 'Geist Sans', sans-serif;
+    --font-geist-mono: 'Geist Mono', monospace;
+    --font-ripped-off: 'Ripped Off', sans-serif;
+  }
+  
+  .font-sans {
+    font-family: var(--font-geist-sans);
+  }
+  
+  .font-mono {
+    font-family: var(--font-geist-mono);
+  }
+  
+  .font-ripped-off {
+    font-family: var(--font-ripped-off);
+  }
 
 @media (prefers-color-scheme: dark) {
     :root {
