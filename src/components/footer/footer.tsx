@@ -59,7 +59,7 @@ export default function Footer() {
                             <span className="absolute inset-0 bg-gradient-to-r from-white to-white/20 w-0 group-hover:w-full transition-all duration-300 ease-in-out"></span>
                         </p>
                     </div>
-                    <div className="sm:hidden md:block flex flex-col z-[20] h-full items-center justify-end text-4xl text-black font-black">
+                    <div className="hidden md:block z-[20] h-full items-center justify-end text-4xl text-black font-black">
                         <p className="flex justify-end items-center w-full p-6 transition-all duration-200 ease-in-out relative overflow-hidden group">
                             <Link
                                 href="https://www.linkedin.com/company/international-society-of-automation-isa-vit/"
