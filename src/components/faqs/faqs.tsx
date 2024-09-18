@@ -6,7 +6,8 @@ import { AccordionTrigger } from './ui/accordion';
 
 export default function Faqs() {
     return (
-        <div className="w-full rounded-3xl flex flex-col items-center justify-center bg-black">
+
+        <div className="w-full rounded-xl md:rounded-3xl flex flex-col items-center justify-center bg-black">
             <span className="text-4xl font-bold px-6 py-3 text-stone-50 rounded-md bg-gradient-to-r from-purple-700 to-violet-500">
                 Frequently Asked Questions
             </span>
