@@ -19,7 +19,7 @@ export default function ParticipantResources() {
             </p>
             <p>make changes as per will</p> */}
             <div
-                className=" w-full rounded-3xl flex flex-col items-center justify-center border-white border-2 relative bg-cover bg-center md:p-16 "
+                className=" w-full rounded-xl md:rounded-3xl flex flex-col items-center justify-center relative bg-cover bg-center md:p-16 "
                 style={{ backgroundImage: `url(${resource.src})` }}
             >
                 <div className="relative z-10 text-white p-8">
