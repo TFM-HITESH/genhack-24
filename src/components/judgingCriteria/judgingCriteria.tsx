@@ -44,6 +44,7 @@ export default function JudgingCriteria() {
                     title="CREATIVITY"
                     content="Unleash your creativity! Bring fresh ideas and unique approaches to make your project stand out."
                 />
+            </div>
         </div>
     );
 }
