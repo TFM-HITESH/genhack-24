@@ -82,9 +82,10 @@ body {
     }
 }
 .px-22 {
-    padding-left: 6.5rem; /* Adjust this value as needed */
+    padding-left: 6.5rem;
     padding-right: 6.5rem;
   }
+  
   
 @layer base {
   * {
