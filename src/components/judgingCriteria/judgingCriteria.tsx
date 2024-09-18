@@ -12,7 +12,7 @@ import Curl from './assets/curl.svg';
 
 export default function JudgingCriteria() {
     return (
-        <div className="w-full rounded-3xl flex items-start justify-center bg-gradient-to-b from-blue-400 via-purple-400 to-purple-500 border-white border-2 p-6 flex-col lg:flex-row">
+        <div className="w-full rounded-xl md:rounded-3xl flex items-start justify-center bg-gradient-to-b from-blue-400 via-purple-400 to-purple-500 border-white border-2 p-6 flex-col lg:flex-row">
 
             <div className=" w-full lg:w-2/5 text-left pr-8">
                 <h2 className="text-black font-bold text-5xl lg:text-8xl mb-4 pt-12 lg:pt-16 lg:pl-8 ">Projects selection criteria</h2>
@@ -44,7 +44,6 @@ export default function JudgingCriteria() {
                     title="CREATIVITY"
                     content="Unleash your creativity! Bring fresh ideas and unique approaches to make your project stand out."
                 />
-            </div>
         </div>
     );
 }
