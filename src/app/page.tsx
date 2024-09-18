@@ -13,8 +13,8 @@ import Footer from '@/components/footer/footer';
 
 export default function Home() {
     return (
-        <main className="w-full p-10">
-            <div className=" flex flex-col justify-center items-center gap-10">
+        <main className="w-full p-4 md:p-10">
+            <div className=" flex flex-col justify-center items-center gap-4 md:gap-10">
                 <Navbar />
                 <HeroVideo />
                 <HeroPageLanding />
