@@ -7,7 +7,7 @@ export default function Prizes() {
     <section
       id="prizes"
       className="w-full rounded-3xl flex flex-col items-center justify-center border-2 border-white relative bg-cover bg-center font-sans tracking-wide"
-      style={{ backgroundImage: `url(${resource.src})` }} // Using the local background image
+      style={{ backgroundImage: `url(${resource.src})` }}
     >
       <div className="container-large mx-auto px-4 relative z-10">
         {/* Section Header */}
@@ -26,9 +26,9 @@ export default function Prizes() {
         <br />
         <br/>
         {/* Prizes Component */}
-        <div className="prizes_component">
+        <div className="prizes_component flex flex-col items-center">
           {/* First Row */}
-          <div className="prizes_row flex items-center justify-center space-x-8">
+          <div className="prizes_row flex flex-col md:flex-row items-center justify-center md:space-x-8 w-full">
             {/* Trophy Image */}
             <Image
               src="https://cdn.prod.website-files.com/66a50f94da6293d196f9ce88/66a635d89b26d3f2b504b045_Trophy.webp"
@@ -37,14 +37,12 @@ export default function Prizes() {
               height={100}
               className="hidden md:block"
               loading="lazy"
-   
-              
             />
 
             {/* Winner Prize */}
-            <div className="text-5xl font-semibold text-white text-center border-2 border-white rounded-lg sm:rounded-full p-8 px-22">
-            ₹7,000
-              <br /><div className='text-2xl'>
+            <div className="text-4xl sm:text-5xl font-semibold text-white text-center border-2 border-white rounded-lg sm:rounded-full p-6 sm:p-8 my-4 w-full md:w-auto md:px-22 min-w-[300px]">
+              ₹7,000
+              <br /><div className='text-xl sm:text-2xl'>
               Winner</div>
             </div>
 
@@ -60,11 +58,11 @@ export default function Prizes() {
           </div>
 
           {/* Second Row */}
-          <div className="flex flex-col lg:flex-row space-y-4 items-center justify-center space-x-8 mt-8">
+          <div className="flex flex-col lg:flex-row items-center justify-center md:space-x-8 w-full mt-8">
             {/* Two Runner Ups Prize */}
-            <div className="text-5xl font-semibold text-white text-center border-2 border-white rounded-lg sm:rounded-full p-8 my-11 px-22">
-            ₹5,000
-              <br /><div className='text-2xl'>
+            <div className="text-4xl sm:text-5xl font-semibold text-white text-center border-2 border-white rounded-lg sm:rounded-full p-6 sm:p-8 my-4 w-full md:w-auto md:px-22 min-w-[300px]">
+              ₹5,000
+              <br /><div className='text-xl sm:text-2xl'>
               Two runner ups</div>
             </div>
 
@@ -74,26 +72,27 @@ export default function Prizes() {
               alt="Card"
               width={100}
               height={100}
-              className="hidden lg:block"
+              className="hidden lg:block my-4"
               loading="lazy"
             />
             
             {/* Audience Favourite Prize */}
-            <div className="text-5xl font-semibold text-white text-center border-2 border-white rounded-lg sm:rounded-full p-8 my-4 px-22">
-            ₹3,000
-              <br /><div className='text-2xl'>
+            <div className="text-4xl sm:text-5xl font-semibold text-white text-center border-2 border-white rounded-lg sm:rounded-full p-6 sm:p-8 my-4 w-full md:w-auto md:px-22 min-w-[300px]">
+              ₹3,000
+              <br /><div className='text-xl sm:text-2xl'>
               Audience Favourites</div>
             </div>
           </div>
           <div className='flex items-center justify-center m-11'>
-          <Image
+            <Image
               src="https://cdn.prod.website-files.com/66a50f94da6293d196f9ce88/66a635d83d2c8369837e75f0_card.webp"
               alt="Card"
               width={100}
               height={100}
               className="items-center block lg:hidden justify-center hidden md:block"
               loading="lazy"
-            /></div>
+            />
+          </div>
           <br/><br/><br/><br/>
         </div>
       </div>
