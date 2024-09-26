@@ -12,6 +12,11 @@ const geistMono = localFont({
     variable: '--font-geist-mono',
     weight: '100 900',
 });
+const customFont = localFont({
+  src: "./fonts/rippedOffFont.woff", 
+  variable: "--font-ripped-off", 
+  weight: "100 900",
+});
 
 export const metadata: Metadata = {
     title: 'GenHack24',
@@ -23,13 +28,12 @@ export default function RootLayout({
 }: Readonly<{
     children: React.ReactNode;
 }>) {
-    return (
-        <html lang="en">
-            <body
-                className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-            >
-                {children}
-            </body>
-        </html>
-    );
+  return (
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} ${customFont.variable}`}>
+      <body className={`${customFont.variable} font-sans-serif`}>
+        {children}
+      </body>
+    </html>
+  );
+
 }
