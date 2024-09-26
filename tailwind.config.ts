@@ -64,6 +64,15 @@ const config: Config = {
                 md: 'calc(var(--radius) - 2px)',
                 sm: 'calc(var(--radius) - 4px)',
             },
+            keyframes: {
+                breathe: {
+                    '0%, 100%': { transform: 'translateX(0) scale(1)' },
+                    '50%': { transform: 'translateX(2px) scale(1.15)' },
+                },
+            },
+            animation: {
+                breathe: 'breathe 8s ease-in-out infinite',
+            },
         },
     },
     plugins: [
