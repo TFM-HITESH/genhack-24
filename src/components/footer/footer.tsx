@@ -5,14 +5,12 @@ import { BackgroundBeamsWithCollision } from '../ui/background-beams-with-collis
 export default function Footer() {
     return (
         <div className="w-full rounded-xl md:rounded-3xl flex flex-col items-center justify-center h-full bg-black border-white border-2">
-            {/* <br></br>
-            <br></br> */}
             <BackgroundBeamsWithCollision className="w-full h-full p-4 md:p-16 rounded-3xl flex z-10 hover:rounded-3xl items-center">
                 <div className="flex flex-col md:flex-row mx-auto justify-between w-full h-full z-20 items-center">
                     <div className="flex flex-col w-full h-full items-center justify-end text-sm md:text-xl">
                         <p className="flex justify-center md:justify-start items-center w-full p-6 transition-all duration-200 ease-in-out relative overflow-hidden group">
                             <Link
-                                href="https://www.linkedin.com/company/international-society-of-automation-isa-vit/"
+                                href="mailto:isa@vit.ac.in"
                                 className="tracking-[1.0em] z-10 relative group-hover:text-violet-800 transition-all duration-200 ease-in-out"
                                 target="_blank"
                             >
@@ -60,15 +58,8 @@ export default function Footer() {
                         </p>
                     </div>
                     <div className="hidden md:block z-[20] h-full items-center justify-end text-4xl text-black font-black">
-                        <p className="flex justify-end items-center w-full p-6 transition-all duration-200 ease-in-out relative overflow-hidden group">
-                            <Link
-                                href="https://www.linkedin.com/company/international-society-of-automation-isa-vit/"
-                                className="tracking-[1.0em] z-10 relative "
-                                target="_blank"
-                            >
-                                GENHACK'24
-                            </Link>
-
+                        <p className="flex justify-end items-center w-full p-6 transition-all duration-200 ease-in-out relative overflow-hidden group tracking-[1.0em] z-10 relative">
+                            GENHACK'24
                             {/* Background Slide Effect */}
                         </p>
                     </div>
