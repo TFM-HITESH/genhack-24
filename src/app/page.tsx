@@ -18,12 +18,26 @@ export default function Home() {
                 <Navbar />
                 <HeroVideo />
                 <HeroPageLanding />
-                <Tracks />
-                <PrizePool />
-                <Timeline />
+                <div className="w-full" id="tracks">
+                    <Tracks />
+                </div>
+
+                <div className="w-full" id="prizepool">
+                    <PrizePool />
+                </div>
+                <div className="w-full" id="timeline">
+                    <Timeline />
+                </div>
+
                 <TeamNRules />
-                <JudgingCriteria />
-                <ParticipantResources />
+                <div className="w-full" id="criteria">
+                    <JudgingCriteria />
+                </div>
+
+                <div className="w-full" id="resources">
+                    <ParticipantResources />
+                </div>
+
                 <Faqs />
                 <StayTuned />
                 <Footer />
