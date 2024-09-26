@@ -4,7 +4,7 @@ import Image from 'next/image';
 import isaLogo from '@/Assets/ISALogo.png';
 export default function Navbar() {
     return (
-        <div className="bg-violet-300/30 shadow-md sticky top-11 z-50 rounded-full mx-6 backdrop-filter backdrop-blur-2xl bg-opacity-60 firefox:bg-opacity-60">
+        <div className="bg-violet-300/30 shadow-md sticky top-11 z-[1000] rounded-full mx-6 backdrop-filter backdrop-blur-2xl bg-opacity-60 firefox:bg-opacity-60">
             <nav id="navbar">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-11">
                     <div className="flex items-center justify-between h-18">
