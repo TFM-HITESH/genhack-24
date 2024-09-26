@@ -12,6 +12,11 @@ const geistMono = localFont({
     variable: '--font-geist-mono',
     weight: '100 900',
 });
+const customFont = localFont({
+  src: "./fonts/rippedOffFont.woff", 
+  variable: "--font-ripped-off", 
+  weight: "100 900",
+});
 
 export const metadata: Metadata = {
     title: 'GenHack24',

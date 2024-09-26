@@ -10,7 +10,7 @@ import cardComp4 from './assets/cardComp4.svg';
 
 export default function ParticipantResources() {
     return (
-        <div className="w-full rounded-xl md:rounded-3xl flex flex-col items-center justify-center border-white border-2">
+        <div className="w-full rounded-3xl flex flex-col items-center justify-center border-white border-2 font-ripped-off">
             {/* participantResources : ANISHA
             <p>Try to get the rotation effect working by hover:rotate-[]</p>
             <p>
