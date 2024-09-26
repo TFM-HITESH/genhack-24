@@ -5,7 +5,7 @@ import isaLogo from '@/Assets/ISALogo.png';
 
 export default function Navbar() {
     return (
-        <div className="fixed top-0 left-0 right-0 z-50 m-11">
+        <div className="fixed top-0 left-0 right-0 z-[1000] m-11">
             <nav id="navbar" className="bg-violet-300/30 shadow-md rounded-full mx-6 backdrop-filter backdrop-blur-2xl bg-opacity-60 firefox:bg-opacity-60">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-11">
                     <div className="flex items-center justify-between h-18">
