@@ -3,99 +3,132 @@ import Image from 'next/image';
 import resource from './assets/resource.jpeg';
 
 export default function Prizes() {
-  return (
-    <section
-      id="prizes"
-      className="w-full rounded-3xl flex flex-col items-center justify-center border-2 border-white relative bg-cover bg-center font-sans tracking-wide"
-      style={{ backgroundImage: `url(${resource.src})` }}
-    >
-      <div className="container-large mx-auto px-4 relative z-10">
-        {/* Section Header */}
-        <div className="text-center max-w-4xl mx-auto">
-          <div className="mb-8">
-            <br />
-            <br /><br/>
-            <h2 className="text-5xl lg:text-7xl text-white my-11">
-              Winning Never
-              <br />
-              Looked So Good
-            </h2>
-          </div>
-          <p className="text-5xl text-fuchsia-600">PRIZES</p>
-        </div> 
-        <br />
-        <br/>
-        {/* Prizes Component */}
-        <div className="prizes_component flex flex-col items-center">
-          {/* First Row */}
-          <div className="prizes_row flex flex-col md:flex-row items-center justify-center md:space-x-8 w-full">
-            {/* Trophy Image */}
-            <Image
-              src="https://cdn.prod.website-files.com/66a50f94da6293d196f9ce88/66a635d89b26d3f2b504b045_Trophy.webp"
-              alt="Trophy"
-              width={100}
-              height={100}
-              className="hidden md:block"
-              loading="lazy"
-            />
+    return (
+        <div
+            id="prizes"
+            className="w-full relative overflow-hidden rounded-3xl flex flex-col items-center justify-center border-2 border-white z-20 bg-grid-white/20 pb-20"
+            // style={{ backgroundImage: `url(${resource.src})` }}
+        >
+            <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_0%,black)]"></div>
 
-            {/* Winner Prize */}
-            <div className="text-4xl sm:text-5xl font-semibold text-white text-center border-2 border-white rounded-lg sm:rounded-full p-6 sm:p-8 my-4 w-full md:w-auto md:px-22 min-w-[300px]">
-              ₹7,000
-              <br /><div className='text-xl sm:text-2xl'>
-              Winner</div>
+            <div className=" w-full px-4 relative z-20">
+                {/* Section Header */}
+                <div className="text-center w-full mx-auto">
+                    <div className="mb-8">
+                        <h2 className="text-5xl lg:text-7xl text-white my-[5rem] z-20">
+                            Winning Never Looked So Good
+                        </h2>
+                    </div>
+                    <p className="text-5xl text-fuchsia-600 font-black z-20">
+                        PRIZES
+                    </p>
+                </div>
+
+                {/* Prizes Component */}
+                <div className="flex flex-col items-center z-[20] w-full">
+                    {/* First Row */}
+                    <div className="prizes_row flex flex-col md:flex-row items-center justify-center md:space-x-8 w-full z-20">
+                        {/* Trophy Image */}
+                        <Image
+                            src="https://cdn.prod.website-files.com/66a50f94da6293d196f9ce88/66a635d89b26d3f2b504b045_Trophy.webp"
+                            alt="Trophy"
+                            width={100}
+                            height={100}
+                            className="hidden md:block"
+                            loading="lazy"
+                        />
+
+                        {/* Winner Prize */}
+                        <div className="text-3xl sm:text-5xl font-semibold text-white text-center border-2 border-white rounded-lg sm:rounded-full p-6 sm:p-8 my-4 w-full md:w-auto md:px-22 bg-white/10">
+                            1st, 2nd, 3rd Place
+                        </div>
+
+                        {/* Flag Image */}
+                        <Image
+                            src="https://cdn.prod.website-files.com/66a50f94da6293d196f9ce88/66a635d8c9fbe25684e0aa84_Flag.webp"
+                            alt="Flag"
+                            width={100}
+                            height={100}
+                            className="hidden md:block"
+                            loading="lazy"
+                        />
+                    </div>
+
+                    {/* Second Row */}
+                    <div className="flex flex-col lg:flex-row items-center justify-center md:space-x-8 w-full md:mt-8 z-20">
+                        {/* Two Runner Ups Prize */}
+                        <div className="text-3xl sm:text-5xl font-semibold text-white text-center border-2 border-white rounded-lg sm:rounded-full p-6 sm:p-8 my-4 w-full md:w-auto md:px-22 bg-white/10">
+                            Best Freshers Team
+                        </div>
+
+                        {/* Card Image */}
+                        <Image
+                            src="https://cdn.prod.website-files.com/66a50f94da6293d196f9ce88/66a635d83d2c8369837e75f0_card.webp"
+                            alt="Card"
+                            width={100}
+                            height={100}
+                            className="hidden lg:block my-4"
+                            loading="lazy"
+                        />
+
+                        {/* Audience Favourite Prize */}
+                        <div className="text-3xl sm:text-5xl font-semibold text-white text-center border-2 border-white rounded-lg sm:rounded-full p-6 sm:p-8 my-4 w-full md:w-auto md:px-22 bg-white/10">
+                            Best Womens Team
+                        </div>
+                    </div>
+                    <div className="flex items-center justify-center">
+                        <Image
+                            src="https://cdn.prod.website-files.com/66a50f94da6293d196f9ce88/66a635d83d2c8369837e75f0_card.webp"
+                            alt="Card"
+                            width={100}
+                            height={100}
+                            className="items-center block lg:hidden justify-center hidden md:block"
+                            loading="lazy"
+                        />
+                    </div>
+
+                    {/* Third Row */}
+                    <div className="prizes_row flex flex-col md:flex-row items-center justify-center md:space-x-8 md:mt-8 w-full z-20">
+                        {/* Trophy Image */}
+                        <Image
+                            src="https://cdn.prod.website-files.com/66a50f94da6293d196f9ce88/66a635d8c9fbe25684e0aa84_Flag.webp"
+                            alt="Flag"
+                            width={100}
+                            height={100}
+                            className="hidden md:block"
+                            loading="lazy"
+                        />
+
+                        {/* Winner Prize */}
+                        <div className="text-3xl sm:text-5xl font-semibold text-white text-center border-2 border-white rounded-lg sm:rounded-full p-6 sm:p-8 my-4 w-full md:w-auto md:px-22 bg-white/10">
+                            Track Winners
+                        </div>
+
+                        {/* Flag Image */}
+                        <Image
+                            src="https://cdn.prod.website-files.com/66a50f94da6293d196f9ce88/66a635d89b26d3f2b504b045_Trophy.webp"
+                            alt="Trophy"
+                            width={100}
+                            height={100}
+                            className="hidden md:block"
+                            loading="lazy"
+                        />
+                    </div>
+                </div>
+                <div className=" absolute h-[20rem] w-[20rem] md:h-[35rem] md:w-[35rem] bg-purple-600/40 rounded-full blur-2xl md:blur-[6rem] z-5 md:top-[60%] md:-left-[5%] top-[15%] -left-[10rem]"></div>
+
+                <div className=" absolute h-[20rem] w-[20rem] md:h-[25rem] md:w-[25rem] bg-indigo-400/30 rounded-full blur-2xl md:blur-[6rem] z-5 md:top-[70%] md:left-[10%] top-[75%] left-[70%]"></div>
+
+                <div className=" absolute h-[20rem] w-[20rem] md:h-[45rem] md:w-[45rem] bg-cyan-400/50 rounded-full blur-2xl md:blur-[6rem] z-5 md:top-[87%] md:left-[20%] top-[30%] left-[70%]"></div>
+
+                <div className=" absolute h-[20rem] w-[20rem] md:h-[35rem] md:w-[35rem] bg-orange-400/40 rounded-full blur-2xl md:blur-[6rem] z-5 md:top-[65%] md:left-[80%] top-[75%] left-[70%]"></div>
+
+                <div className=" absolute h-[20rem] w-[20rem] md:h-[35rem] md:w-[35rem] bg-rose-500/70 rounded-full blur-2xl md:blur-[6rem] z-5 md:top-[80%] md:left-[50%] top-[55%] -left-[10rem]"></div>
+
+                <div className=" absolute h-[20rem] w-[20rem] md:h-[55rem] md:w-[55rem] bg-fuchsia-400/40 rounded-full blur-2xl md:blur-[6rem] z-5 md:top-[70%] md:left-[80%] top-[75%] left-[70%]"></div>
+
+                <div className=" absolute h-[20rem] w-[20rem] md:h-[30rem] md:w-[30rem] bg-emerald-400/40 rounded-full blur-2xl md:blur-[6rem] z-5 md:top-[70%] md:left-[60%] top-[75%] left-[70%]"></div>
             </div>
-
-            {/* Flag Image */}
-            <Image
-              src="https://cdn.prod.website-files.com/66a50f94da6293d196f9ce88/66a635d8c9fbe25684e0aa84_Flag.webp"
-              alt="Flag"
-              width={100}
-              height={100}
-              className="hidden md:block"
-              loading="lazy"
-            />
-          </div>
-
-          {/* Second Row */}
-          <div className="flex flex-col lg:flex-row items-center justify-center md:space-x-8 w-full mt-8">
-            {/* Two Runner Ups Prize */}
-            <div className="text-4xl sm:text-5xl font-semibold text-white text-center border-2 border-white rounded-lg sm:rounded-full p-6 sm:p-8 my-4 w-full md:w-auto md:px-22 min-w-[300px]">
-              ₹5,000
-              <br /><div className='text-xl sm:text-2xl'>
-              Two runner ups</div>
-            </div>
-
-            {/* Card Image */}
-            <Image
-              src="https://cdn.prod.website-files.com/66a50f94da6293d196f9ce88/66a635d83d2c8369837e75f0_card.webp"
-              alt="Card"
-              width={100}
-              height={100}
-              className="hidden lg:block my-4"
-              loading="lazy"
-            />
-            
-            {/* Audience Favourite Prize */}
-            <div className="text-4xl sm:text-5xl font-semibold text-white text-center border-2 border-white rounded-lg sm:rounded-full p-6 sm:p-8 my-4 w-full md:w-auto md:px-22 min-w-[300px]">
-              ₹3,000
-              <br /><div className='text-xl sm:text-2xl'>
-              Audience Favourites</div>
-            </div>
-          </div>
-          <div className='flex items-center justify-center m-11'>
-            <Image
-              src="https://cdn.prod.website-files.com/66a50f94da6293d196f9ce88/66a635d83d2c8369837e75f0_card.webp"
-              alt="Card"
-              width={100}
-              height={100}
-              className="items-center block lg:hidden justify-center hidden md:block"
-              loading="lazy"
-            />
-          </div>
-          <br/><br/><br/><br/>
         </div>
-      </div>
-    </section>
-  );
+    );
 }
