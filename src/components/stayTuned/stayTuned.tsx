@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import RotateText from "../styleComponents/RotateText";
 
 const StayTunedComponent = () => {
   const [differenceInSeconds, setDifferenceInSeconds] = useState(0);
@@ -30,8 +31,8 @@ const StayTunedComponent = () => {
   const seconds = (differenceInSeconds % 60).toString().padStart(2, "0");
 
   return (
-    <div className="w-full rounded-3xl flex flex-col items-center p-16 justify-center border-white border-2 font-ripped-off">
-      <div className="flex flex-row gap-x-8 justify-between">
+    <div className="w-full rounded-3xl flex flex-row items-center p-16 justify-center border-white border-2 font-ripped-off">
+      <div className="flex flex-row gap-x-8 justify-between w-1/2">
         <div className="flex flex-col items-center">
           <div className="flex font-bold text-[6rem] bg-gradient-to-b from-[#6256CA] to-[#8967B3] p-4 items-center justify-center rounded-lg">
             {days}
@@ -56,6 +57,14 @@ const StayTunedComponent = () => {
           </div>
           <div className="text-2xl p-2">SECONDS</div>
         </div>
+      </div>
+      <div className="flex flex-col w-1/2">
+          {/* <div className="flex items-center font-bold text-[4rem]">
+            STAY TUNED!
+          </div> */}
+          <RotateText content={["STAY TUNED!", "WE HAVE A STORM IN STORE!", "MARK YOUR CALENDARS!", "SEE YOU THERE :)"]} />
+          {/* <div></div> */}
+          <div></div>
       </div>
     </div>
   );
