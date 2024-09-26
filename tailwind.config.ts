@@ -66,12 +66,42 @@ const config: Config = {
             },
             keyframes: {
                 breathe: {
-                    '0%, 100%': { transform: 'translateX(0) scale(1)' },
-                    '50%': { transform: 'translateX(2px) scale(1.15)' },
+                    '0%, 100%': {
+                        transform: 'translateX(0) scale(1)',
+                    },
+                    '50%': {
+                        transform: 'translateX(2px) scale(1.15)',
+                    },
+                },
+                'accordion-down': {
+                    from: {
+                        height: '0',
+                    },
+                    to: {
+                        height: 'var(--radix-accordion-content-height)',
+                    },
+                },
+                'accordion-up': {
+                    from: {
+                        height: 'var(--radix-accordion-content-height)',
+                    },
+                    to: {
+                        height: '0',
+                    },
+                },
+                'gradient-x': {
+                    '0%, 100%': { 'background-position': '0% 50%' },
+                    '50%': { 'background-position': '100% 50%' },
                 },
             },
             animation: {
                 breathe: 'breathe 8s ease-in-out infinite',
+                'accordion-down': 'accordion-down 0.2s ease-out',
+                'accordion-up': 'accordion-up 0.2s ease-out',
+                'gradient-x': 'gradient-x 5s ease infinite',
+            },
+            backgroundSize: {
+                '200%': '200%',
             },
         },
     },

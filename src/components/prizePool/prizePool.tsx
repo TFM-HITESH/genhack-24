@@ -4,7 +4,7 @@ import resource from './assets/resource.jpeg';
 
 export default function Prizes() {
     return (
-        <div
+        <section
             id="prizes"
             className="w-full relative overflow-hidden rounded-3xl flex flex-col items-center justify-center border-2 border-white z-20 bg-grid-white/10 pb-20"
             // style={{ backgroundImage: `url(${resource.src})` }}
@@ -131,6 +131,6 @@ export default function Prizes() {
 
                 <div className=" absolute h-[20rem] w-[20rem] md:h-[20rem] md:w-[20rem] bg-rose-700/80 rounded-full blur-2xl md:blur-[6rem] z-5 md:top-[70%] md:left-[60%] top-[75%] left-[70%]"></div>
             </div>
-        </div>
+        </section>
     );
 }
