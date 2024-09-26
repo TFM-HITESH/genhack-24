@@ -15,7 +15,7 @@ export default function HeroVideo() {
     }
 
     return (
-        <div className="relative w-full rounded-3xl flex flex-col items-center justify-center border-white border-2">
+        <div className="relative w-full rounded-xl md:rounded-3xl flex flex-col items-center justify-center border-white border-2">
             <div className="flex flex-col w-full h-full justify-center items-center">
                 <video
                     className="w-full h-full rounded-3xl"
