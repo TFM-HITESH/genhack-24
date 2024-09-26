@@ -11,34 +11,34 @@ export default function Navbar() {
                         <div className="flex-1 flex lg:justify-center lg:space-x-14 xl:space-24">
                             <div className="justify-between hidden lg:ml-6 lg:flex lg:space-x-14 xl-space-24">
                                 <Link
-                                    href="#prizepool"
-                                    className="text-xl font-bold text-white hover:text-gray-700 px-3 py-4"
+                                    href="#tracks"
+                                    className="text-xl font-extralight tracking-widest text-white hover:text-black px-3 py-4 transition-all duration-300 ease-in-out"
                                 >
-                                    Tracks
+                                    TRACKS
                                 </Link>
                                 <Link
-                                    href="#criteria"
-                                    className="text-xl font-bold text-white hover:text-gray-700 px-3 py-4"
+                                    href="#prizepool"
+                                    className="text-xl font-extralight tracking-widest text-white hover:text-black px-3 py-4 transition-all duration-300 ease-in-out"
                                 >
-                                    Prizes
+                                    PRIZES
                                 </Link>
                                 <Link
                                     href="#timeline"
-                                    className="text-xl font-bold text-white hover:text-gray-700 px-3 py-4"
+                                    className="text-xl font-extralight tracking-widest text-white hover:text-black px-3 py-4 transition-all duration-300 ease-in-out"
                                 >
-                                    Timeline
+                                    TIMELINE
+                                </Link>
+                                <Link
+                                    href="#criteria"
+                                    className="text-xl font-extralight tracking-widest text-white hover:text-black px-3 py-4 transition-all duration-300 ease-in-out"
+                                >
+                                    CRITERIA
                                 </Link>
                                 <Link
                                     href="#resources"
-                                    className="text-xl font-bold text-white hover:text-gray-700 px-3 py-4"
+                                    className="text-xl font-extralight tracking-widest text-white hover:text-black px-3 py-4 transition-all duration-300 ease-in-out"
                                 >
-                                    Criteria
-                                </Link>
-                                <Link
-                                    href="#register"
-                                    className="text-xl font-bold text-white hover:text-gray-700 px-3 py-4"
-                                >
-                                    Resources
+                                    RESOURCES
                                 </Link>
                             </div>
                         </div>

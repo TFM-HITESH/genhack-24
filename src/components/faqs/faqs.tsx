@@ -12,19 +12,26 @@ import { CardSpotlight } from '../ui/card-spotlight';
 
 export default function Faqs() {
     return (
-        <div className="w-full rounded-xl md:rounded-3xl flex flex-col items-center justify-center bg-black md:p-[8rem] p-[1rem]">
+        <div className="w-full relative rounded-xl md:rounded-3xl flex flex-col items-center justify-center bg-black md:p-16 p-[1rem] border-2 border-white">
             {/* <span className="text-4xl font-bold px-6 py-6 mb-20 text-stone-50 rounded-md bg-gradient-to-r from-purple-700 to-violet-500">
                 Frequently Asked Questions
             </span> */}
-            <TextHoverEffectGen />
+            <div className="w-full relative mb-[6rem] hover:scale-[1.02] transition-all duration-75 ease-linear">
+                <TextHoverEffectGen />
+                <div className="absolute inset-0 opacity-65 bg-[url('/bright-squares.png')] bg-repeat bg-[size:200px_200px] animate-slide rounded-3xl" />
+            </div>
+
             <Accordion type="single" collapsible className="w-full ">
-                <AccordionItem value="item-1">
+                <AccordionItem value="item-1" className="hover:bg-white">
                     {/* <AccordionTrigger>
                         Where to find water in rajasthan ?
                     </AccordionTrigger>
                     <AccordionContent>lol</AccordionContent> */}
                 </AccordionItem>
-                <AccordionItem value="item-2">
+                <AccordionItem
+                    value="item-2"
+                    className="hover:bg-white/5 transition-all duration-75 ease-linear"
+                >
                     <AccordionTrigger>What is a GenHack'24?</AccordionTrigger>
                     <AccordionContent className=" font-light text-white/40 tracking-wide">
                         GenHack'24 is a hackathon cum workshop where we train
@@ -37,7 +44,10 @@ export default function Faqs() {
                         solutions you can think of!
                     </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value="item-3">
+                <AccordionItem
+                    value="item-3"
+                    className="hover:bg-white/5 transition-all duration-75 ease-linear"
+                >
                     <AccordionTrigger>
                         What tools and technologies can we use?
                     </AccordionTrigger>
@@ -53,7 +63,10 @@ export default function Faqs() {
                         solution.
                     </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value="item-4">
+                <AccordionItem
+                    value="item-4"
+                    className="hover:bg-white/5 transition-all duration-75 ease-linear"
+                >
                     <AccordionTrigger>
                         Do I need to have a team?
                     </AccordionTrigger>
@@ -63,7 +76,10 @@ export default function Faqs() {
                         members.
                     </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value="item-5">
+                <AccordionItem
+                    value="item-5"
+                    className="hover:bg-white/5 transition-all duration-75 ease-linear"
+                >
                     <AccordionTrigger>
                         Are there any prerequisites for participation?
                     </AccordionTrigger>
@@ -74,7 +90,10 @@ export default function Faqs() {
                         hackathon.
                     </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value="item-6">
+                <AccordionItem
+                    value="item-6"
+                    className="hover:bg-white/5 transition-all duration-75 ease-linear"
+                >
                     <AccordionTrigger>
                         Will there be any workshops or mentorship sessions?
                     </AccordionTrigger>
@@ -87,7 +106,10 @@ export default function Faqs() {
                         project during the workshop.
                     </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value="item-7">
+                <AccordionItem
+                    value="item-7"
+                    className="hover:bg-white/5 transition-all duration-75 ease-linear"
+                >
                     <AccordionTrigger>
                         How do we submit our projects?
                     </AccordionTrigger>
@@ -97,7 +119,10 @@ export default function Faqs() {
                         on their website under your team by the team leader.
                     </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value="item-8">
+                <AccordionItem
+                    value="item-8"
+                    className="hover:bg-white/5 transition-all duration-75 ease-linear"
+                >
                     <AccordionTrigger>
                         Where can I get help if I run into technical issues?
                     </AccordionTrigger>
@@ -108,7 +133,10 @@ export default function Faqs() {
                         everything about LLMs.
                     </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value="item-9">
+                <AccordionItem
+                    value="item-9"
+                    className="hover:bg-white/5 transition-all duration-75 ease-linear"
+                >
                     <AccordionTrigger>
                         Where will updates and communications occur?
                     </AccordionTrigger>
