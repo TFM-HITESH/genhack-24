@@ -134,7 +134,8 @@ export default function TimelineComponent() {
         },
     ];
     return (
-        <div className="w-full rounded-3xl flex flex-col items-center justify-center border-2 border-white relative bg-cover bg-center font-sans tracking-wide">
+        <div className="w-full bg-grid-white/30 rounded-3xl flex flex-col items-center justify-center border-2 border-white relative bg-cover bg-center font-sans tracking-wide">
+            <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black rounded-3xl [mask-image:radial-gradient(ellipse_at_center,transparent_0%,black)]"></div>
             <Timeline data={data} />
         </div>
     );

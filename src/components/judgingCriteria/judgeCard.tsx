@@ -1,4 +1,3 @@
-
 'use client';
 import Image from 'next/image';
 
@@ -8,22 +7,14 @@ interface JudgingCardProps {
     content: string;
 }
 
-const JudgingCard: React.FC<JudgingCardProps> = ({
-    svg,
-    title,
-    content,
-}) => {
+const JudgingCard: React.FC<JudgingCardProps> = ({ svg, title, content }) => {
     return (
-        <div
-            className="w-full lg:w-[90%] h-auto border-2 border-black bg-[#F5F5F5] p-4 md:p-6 rounded-xl md:rounded-2xl flex flex-col"
-        >
+        <div className="w-full lg:w-[90%] h-auto border-2 border-black bg-[#F5F5F5] p-4 md:p-6 rounded-xl md:rounded-2xl flex flex-col">
             <Image src={svg} width={50} alt="template" className="mb-6" />
-            <h2 className="text-black text-2xl font-bold mb-2 font-extralight">
+            <h2 className="text-black text-xl md:text-2xl font-bold mb-2 font-extralight">
                 {title}
             </h2>
-            <h4 className="text-black text-md  ">
-                {content}
-            </h4>
+            <h4 className="text-black text-md  ">{content}</h4>
         </div>
     );
 };
