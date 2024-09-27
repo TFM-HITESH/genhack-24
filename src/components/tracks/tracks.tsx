@@ -41,75 +41,79 @@ export default function Tracks() {
                         TRACKS
                     </h2>
 
-                    <div className="flex flex-col md:flex-row gap-y-4 md:gap-x-10">
-                        <PinContainer
-                            title="Track 1 : Click here for more details!"
-                            href="https://drive.google.com/file/d/1KWAX2-oeZlYcj3t9fN8KzyPNtX2JsXQ_/view"
-                        >
-                            <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[15rem] h-[15rem] md:w-[10rem] md:h-[10rem] lg:w-[20rem] lg:h-[20rem] ">
-                                <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-                                    AI Resume Builder
-                                </h3>
-                                <div className="text-base !m-0 !p-0 font-normal">
-                                    <span className="text-white/40 tracking-widest ">
-                                        Create a custom resume building LLM for
-                                        specific companies
-                                    </span>
+                    <div className="flex flex-col md:flex-row ">
+                        <div className="gap-y-16 flex flex-col lg:flex-row">
+                            <PinContainer
+                                title="Track 1 : Click here for more details!"
+                                href="https://drive.google.com/file/d/1KWAX2-oeZlYcj3t9fN8KzyPNtX2JsXQ_/view"
+                            >
+                                <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[15rem] h-[15rem] md:w-[10rem] md:h-[10rem] lg:w-[20rem] lg:h-[20rem] ">
+                                    <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
+                                        AI Resume Builder
+                                    </h3>
+                                    <div className="text-base !m-0 !p-0 font-normal">
+                                        <span className="text-white/40 tracking-widest ">
+                                            Create a custom resume building LLM
+                                            for specific companies
+                                        </span>
+                                    </div>
+                                    <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-blue-500 via-cyan-500 to-teal-500" />
                                 </div>
-                                <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-blue-500 via-cyan-500 to-teal-500" />
-                            </div>
-                        </PinContainer>
-                        <PinContainer
-                            title="Track 2 : Click here for more details!"
-                            href="https://drive.google.com/file/d/1KXQwc07083xB_VJgv_xBZ_7YxCxVUPYq/view"
-                        >
-                            <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[15rem] h-[15rem] md:w-[10rem] md:h-[10rem] lg:w-[20rem] lg:h-[20rem] ">
-                                <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-                                    AI Notes Merger
-                                </h3>
-                                <div className="text-base !m-0 !p-0 font-normal">
-                                    <span className="text-white/40 tracking-widest">
-                                        Create an academic VTOP notes LLM for
-                                        exam preparation
-                                    </span>
+                            </PinContainer>
+                            <PinContainer
+                                title="Track 2 : Click here for more details!"
+                                href="https://drive.google.com/file/d/1KXQwc07083xB_VJgv_xBZ_7YxCxVUPYq/view"
+                            >
+                                <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[15rem] h-[15rem] md:w-[10rem] md:h-[10rem] lg:w-[20rem] lg:h-[20rem] ">
+                                    <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
+                                        AI Notes Merger
+                                    </h3>
+                                    <div className="text-base !m-0 !p-0 font-normal">
+                                        <span className="text-white/40 tracking-widest">
+                                            Create an academic VTOP notes LLM
+                                            for exam preparation
+                                        </span>
+                                    </div>
+                                    <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-rose-500 via-red-500 to-orange-500" />
                                 </div>
-                                <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-rose-500 via-red-500 to-orange-500" />
-                            </div>
-                        </PinContainer>
-                        <PinContainer
-                            title="Track 3 : Click here for more details!"
-                            href="https://drive.google.com/file/d/1Kb2VSPqxAI5HjbtkSjPZTAH_awYKHYW8/view"
-                        >
-                            <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[15rem] h-[15rem] md:w-[10rem] md:h-[10rem] lg:w-[20rem] lg:h-[20rem]  ">
-                                <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-                                    AI Debate Bot
-                                </h3>
-                                <div className="text-base !m-0 !p-0 font-normal">
-                                    <span className="text-white/40 tracking-widest">
-                                        Build a bot that speaks for/against any
-                                        topic
-                                    </span>
+                            </PinContainer>
+                        </div>
+                        <div className="gap-y-16 flex flex-col lg:flex-row">
+                            <PinContainer
+                                title="Track 3 : Click here for more details!"
+                                href="https://drive.google.com/file/d/1Kb2VSPqxAI5HjbtkSjPZTAH_awYKHYW8/view"
+                            >
+                                <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[15rem] h-[15rem] md:w-[10rem] md:h-[10rem] lg:w-[20rem] lg:h-[20rem]  ">
+                                    <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
+                                        AI Debate Bot
+                                    </h3>
+                                    <div className="text-base !m-0 !p-0 font-normal">
+                                        <span className="text-white/40 tracking-widest">
+                                            Build a bot that speaks for/against
+                                            any topic
+                                        </span>
+                                    </div>
+                                    <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-emerald-500 via-green-500 to-lime-500" />
                                 </div>
-                                <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-emerald-500 via-green-500 to-lime-500" />
-                            </div>
-                        </PinContainer>
-                        <PinContainer
-                            title="Track 4 : Click here for more details!"
-                            href="https://drive.google.com/file/d/1Kco8TZOdgan8aAtE9gytYn2ASvHC_7UI/view"
-                        >
-                            <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[15rem] h-[15rem] md:w-[10rem] md:h-[10rem] lg:w-[20rem] lg:h-[20rem]  ">
-                                <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
-                                    Open Innovation
-                                </h3>
-                                <div className="text-base !m-0 !p-0 font-normal">
-                                    <span className="text-white/40 tracking-widest">
-                                        Let your imagination run wild! Surprise
-                                        us with your dreams
-                                    </span>
+                            </PinContainer>
+                            <PinContainer
+                                title="Track 4 : Click here for more details!"
+                                href="https://drive.google.com/file/d/1Kco8TZOdgan8aAtE9gytYn2ASvHC_7UI/view"
+                            >
+                                <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[15rem] h-[15rem] md:w-[10rem] md:h-[10rem] lg:w-[20rem] lg:h-[20rem]  ">
+                                    <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
+                                        Open Innovation
+                                    </h3>
+                                    <div className="text-base !m-0 !p-0 font-normal">
+                                        <span className="text-white/40 tracking-widest">
+                                            Let your imagination run wild!
+                                            Surprise us with your dreams
+                                        </span>
+                                    </div>
+                                    <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-fuchsia-500" />
                                 </div>
-                                <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-fuchsia-500" />
-                            </div>
-                        </PinContainer>
+                            </PinContainer>
+                        </div>
                     </div>
                     {/* <FocusCards cards={cards} /> */}
                 </div>
