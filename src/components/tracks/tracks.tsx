@@ -32,7 +32,7 @@ export default function Tracks() {
             <p>2 should be shown with details, 2 are coming soon</p>
             <p>Buttons to redirect to pdf containing track info (gdrive)</p> */}
             <div
-                className="w-full rounded-xl md:rounded-3xl flex flex-col items-center justify-center relative bg-cover bg-center md:p-16 bg-black"
+                className="w-full rounded-xl md:rounded-3xl flex flex-col items-center justify-center relative bg-cover bg-center md:p-16 md:pb-24 bg-black"
                 style={{ backgroundImage: `url(${background4.src})` }}
             >
                 <div className="absolute z-[1] inset-0 bg-black opacity-0 backdrop-blur-md rounded-xl md:rounded-3xl"></div>
@@ -41,13 +41,13 @@ export default function Tracks() {
                         TRACKS
                     </h2>
 
-                    <div className="flex flex-col md:flex-row ">
-                        <div className="gap-y-16 flex flex-col lg:flex-row">
+                    <div className="flex flex-col md:flex-row md:gap-x-40 ">
+                        <div className="md:gap-y-40 flex flex-col">
                             <PinContainer
                                 title="Track 1 : Click here for more details!"
                                 href="https://drive.google.com/file/d/1KWAX2-oeZlYcj3t9fN8KzyPNtX2JsXQ_/view"
                             >
-                                <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[15rem] h-[15rem] md:w-[10rem] md:h-[10rem] lg:w-[20rem] lg:h-[20rem] ">
+                                <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[15rem] h-[15rem] lg:w-[25rem] lg:h-[25rem] ">
                                     <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
                                         AI Resume Builder
                                     </h3>
@@ -64,7 +64,7 @@ export default function Tracks() {
                                 title="Track 2 : Click here for more details!"
                                 href="https://drive.google.com/file/d/1KXQwc07083xB_VJgv_xBZ_7YxCxVUPYq/view"
                             >
-                                <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[15rem] h-[15rem] md:w-[10rem] md:h-[10rem] lg:w-[20rem] lg:h-[20rem] ">
+                                <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[15rem] h-[15rem] lg:w-[25rem] lg:h-[25rem] ">
                                     <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
                                         AI Notes Merger
                                     </h3>
@@ -78,12 +78,12 @@ export default function Tracks() {
                                 </div>
                             </PinContainer>
                         </div>
-                        <div className="gap-y-16 flex flex-col lg:flex-row">
+                        <div className="md:gap-y-40 flex flex-col">
                             <PinContainer
                                 title="Track 3 : Click here for more details!"
                                 href="https://drive.google.com/file/d/1Kb2VSPqxAI5HjbtkSjPZTAH_awYKHYW8/view"
                             >
-                                <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[15rem] h-[15rem] md:w-[10rem] md:h-[10rem] lg:w-[20rem] lg:h-[20rem]  ">
+                                <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[15rem] h-[15rem] lg:w-[25rem] lg:h-[25rem]  ">
                                     <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
                                         AI Debate Bot
                                     </h3>
@@ -100,7 +100,7 @@ export default function Tracks() {
                                 title="Track 4 : Click here for more details!"
                                 href="https://drive.google.com/file/d/1Kco8TZOdgan8aAtE9gytYn2ASvHC_7UI/view"
                             >
-                                <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[15rem] h-[15rem] md:w-[10rem] md:h-[10rem] lg:w-[20rem] lg:h-[20rem]  ">
+                                <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[15rem] h-[15rem] lg:w-[25rem] lg:h-[25rem] ">
                                     <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
                                         Open Innovation
                                     </h3>
