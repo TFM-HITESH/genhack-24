@@ -94,7 +94,7 @@ export default function Tracks() {
                             </div>
                         </PinContainer>
                         <PinContainer
-                            title="Click here for more details!"
+                            title="Track 4 : Click here for more details!"
                             href="https://drive.google.com/file/d/1Kco8TZOdgan8aAtE9gytYn2ASvHC_7UI/view"
                         >
                             <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[15rem] h-[15rem] md:w-[20rem] md:h-[20rem]  ">
