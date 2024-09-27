@@ -3,7 +3,7 @@ import HeroVideo from '@/components/heroVideo/heroVideo';
 import HeroPageLanding from '@/components/heroPageLanding/heroPageLanding';
 import Tracks from '@/components/tracks/tracks';
 import PrizePool from '@/components/prizePool/prizePool';
-import Timeline from '@/components/timeline/timeline';
+import TimelineComponent from '@/components/timeline/timeline';
 import TeamNRules from '@/components/teamNRules/teamNRules';
 import JudgingCriteria from '@/components/judgingCriteria/judgingCriteria';
 import ParticipantResources from '@/components/participantResources/participantResources';
@@ -26,7 +26,7 @@ export default function Home() {
                     <PrizePool />
                 </div>
                 <div className="w-full" id="timeline">
-                    <Timeline />
+                    <TimelineComponent />
                 </div>
 
                 <TeamNRules />
