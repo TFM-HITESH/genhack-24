@@ -14,6 +14,7 @@ import {
     TextRevealCardTitle,
 } from '../ui/text-reveal-card';
 import { MaskContainer } from '../ui/svg-mask-effect';
+import { TabsDemo } from './tabsDemo';
 
 export default function JudgingCriteria() {
     return (
@@ -34,27 +35,28 @@ export default function JudgingCriteria() {
                 {/* <Image src={Curl} width={400} alt="template" className='pt-36 pl-44'/> */}
             </div>
 
-            <div className=" w-full lg:w-3/5 flex flex-col lg:items-center space-y-6 pt-4">
-                <JudgingCard
+            <div className=" w-full lg:w-3/5 flex flex-col lg:items-center space-y-6">
+                <TabsDemo />
+                {/* <JudgingCard
                     svg={judge1}
                     title="IMPACT"
                     content="Show us how your project can make a real difference! Think about how it solves big problems and benefits the community."
-                />
-                <JudgingCard
+                /> */}
+                {/* <JudgingCard
                     svg={judge2}
                     title="TECHNICAL IMPLEMENTATION"
                     content="Impress us with your understanding of tech! Use what you learnt today to build something amazing!"
-                />
-                <JudgingCard
+                /> */}
+                {/* <JudgingCard
                     svg={judge3}
                     title="UNIQUE FEATURES"
                     content="Each unique and useful feature you add that the others haven't puts you a step above the rest!"
-                />
-                <JudgingCard
+                /> */}
+                {/* <JudgingCard
                     svg={judge4}
                     title="CREATIVITY"
                     content="Unleash your creativity! Bring fresh ideas and unique approaches to make your project stand out."
-                />
+                /> */}
             </div>
         </div>
     );

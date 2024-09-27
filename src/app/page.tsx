@@ -39,7 +39,7 @@ export default function Home() {
                 </div>
 
                 <Faqs />
-                <StayTuned />
+                {/* <StayTuned /> */}
                 <Footer />
             </div>
         </main>
