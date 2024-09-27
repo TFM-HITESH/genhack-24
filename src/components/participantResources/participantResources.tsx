@@ -35,34 +35,38 @@ export default function ParticipantResources() {
                     </h2>
 
                     <h3 className="text-l lg:text-xl text-left mt-6 mb-12 border-b-2 border-transparent hover:border-b-2 hover:border-white transition-all duration-200 ease-in-out md:w-1/2 ">
-                        Get a jump start on building AI-powered apps with
+                        Get a jump start on building your AI models with
                         templates and how-to videos.
                     </h3>
 
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-12 lg:gap-12 mx-auto w-[100%] md:mt-24">
                         <ResourceCard
                             svg={cardComp1}
-                            title="Template"
-                            content="Use our streaming Gemini API chat template to quickly get started experimenting with AI"
+                            title="Research Papers and Blogposts"
+                            content="This is the best way to strengthen your fundamentals. Get your hands dirty by following our selection of blogposts to truly understand LLMs"
                             rotateamt="-4"
+                            link="https://docs.google.com/document/d/1KUJbJ919NAN4ELaJnzBuzfuGTuHZF9zp/edit?usp=drivesdk&ouid=109819696713728919448&rtpof=true&sd=true"
                         />
                         <ResourceCard
                             svg={cardComp2}
-                            title="AI tools"
-                            content="Use the built-in Gemini action or quickly import OpenAI or other APIs with our YAML importer"
+                            title="Pre-trained Models"
+                            content="Refer to our curated collection of pre-trained models for you to fine-tune and prompt for your amazing project"
                             rotateamt="3"
+                            link="https://docs.google.com/document/d/1KQYVtZXlexTK4wbuGxVvgHENnKC5D4g6/edit?usp=drivesdk&ouid=109819696713728919448&rtpof=true&sd=true"
                         />
                         <ResourceCard
                             svg={cardComp3}
-                            title="How Tos"
-                            content="Explore our YouTube channel for tips on integrating the neest mulltimodal models into your app, like GPT-4o."
+                            title="Video Guides"
+                            content="Enjoy our carefully vetted selection of YouTube videos and playlists which teach you everything you can ever want to know about LLMs"
                             rotateamt="-5"
+                            link="https://docs.google.com/document/d/1KSbvJ5Du8oOa_dXGtcMlDO_SBMuGZiNL/edit?usp=drivesdk&ouid=109819696713728919448&rtpof=true&sd=true"
                         />
                         <ResourceCard
                             svg={cardComp4}
-                            title="Webinars"
-                            content="Join one or both of our HAckathon webinars with details on how to get started building an AI-powered project"
+                            title="Workshop"
+                            content="Leverage our carefully crafted notebooks from our workshops to build your dream model. This shall be your most powerful ally"
                             rotateamt="2"
+                            link="#"
                         />
                     </div>
                 </div>

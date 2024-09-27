@@ -1,11 +1,13 @@
 'use client';
 import Image from 'next/image';
+import Link from 'next/link';
 
 interface ResourceCardProps {
     svg: string;
     title: string;
     content: string;
     rotateamt: string;
+    link: string;
 }
 
 const ResourceCard: React.FC<ResourceCardProps> = ({
@@ -13,6 +15,7 @@ const ResourceCard: React.FC<ResourceCardProps> = ({
     title,
     content,
     rotateamt,
+    link,
 }) => {
     return (
         <div
@@ -28,6 +31,13 @@ const ResourceCard: React.FC<ResourceCardProps> = ({
             <h4 className="text-black text-center text-lg overflow-hidden">
                 {content}
             </h4>
+            <Link
+                href={link}
+                target="_blank"
+                className="text-black bg-indigo-600 text-2xl p-2 rounded-xl mt-8 "
+            >
+                Click Here
+            </Link>
         </div>
     );
 };
